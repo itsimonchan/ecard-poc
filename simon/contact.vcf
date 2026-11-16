@@ -2,9 +2,9 @@ BEGIN:VCARD
 VERSION:3.0
 N:Chan;Simon;;;
 FN:Simon Chan
-ORG:My Company Ltd
+ORG:Employees Retraining Board
 TITLE:Senior Manager (IT)
-TEL;TYPE=WORK,VOICE:+852 2000 0000
-EMAIL;TYPE=WORK:simon@mycompany.com
-ADR;TYPE=WORK:;;10/F\, Example Tower\, 1 Example Road\, Hong Kong;;;;
+TEL;TYPE=WORK,VOICE:+852 3129 1173
+EMAIL;TYPE=WORK:simonchan@erb.org
+ADR;TYPE=WORK:;;3/F to 6/F\, 10 Siu Sai Wan Road\, Chai Wan\, Hong Kong;;;;
 END:VCARD
