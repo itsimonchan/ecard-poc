@@ -1,1 +1,1 @@
-{"name": "My eCard", "short_name": "eCard", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#FF6400", "theme_color": "#FF6400", "icons": [{"src": "../icon.png", "sizes": "512x512", "type": "image/png"}]}
+{"name": "My eCard", "short_name": "eCard", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#3a3a3a", "theme_color": "#3a3a3a", "icons": [{"src": "../icon.png", "sizes": "512x512", "type": "image/png"}]}

@@ -3,11 +3,15 @@
     "id": "simon",
     "first_name": "Simon",
     "last_name": "Chan",
-    "post": "Senior Manager (IT)",
+    "name_zh": "陳永聰",
+    "post_zh": "高級經理（資訊科技）",
+    "post": "Senior Manager (Information Technology)",
     "org": "Employees Retraining Board",
-    "phone": "+852 3129 1173",
+    "phone": "(852) 3129 1173",
+    "fax": "(852) 2369 8215",
     "email": "simonchan@erb.org",
-    "address": "3/F to 6/F, 10 Siu Sai Wan Road, Chai Wan, Hong Kong",
+    "address_zh": "香港柴灣小西灣道10號3至6樓",
+    "address": "3/F to 6/F, 10 Siu Sai Wan Road, Chai Wan",
     "website": "www.erb.org"
   }
 ]
