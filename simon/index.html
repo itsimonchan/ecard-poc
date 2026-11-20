@@ -1,18 +1,43 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="My eCard">
 <meta name="theme-color" content="#FF6400">
 <link rel="apple-touch-icon" href="../icon.png"><link rel="icon" href="../icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <title>Simon Chan - eCard</title>
-<style>body{margin:0;font-family:system-ui,sans-serif;background:#FF6400;color:#222;display:flex;min-height:100vh;align-items:center;justify-content:center}
-.c{background:#fff;border-radius:16px;padding:24px;max-width:380px;width:88%;text-align:center}
-img{width:100%;max-width:320px;image-rendering:pixelated}h1{margin:.2em 0;font-size:1.4em}p{margin:.3em 0}.t{color:#222;font-weight:600}
-.h{font-size:.8em;color:#666;margin-top:12px}</style></head>
-<body><div class="c"><img src="qr.png?v=2eb052e9" alt="QR code with contact details of Simon Chan">
-<h1>Simon Chan</h1><p class="t">Senior Manager (IT)</p><p>Employees Retraining Board</p>
-<p>+852 3129 1173<br>simonchan@erb.org</p><p style="font-size:.85em">3/F to 6/F, 10 Siu Sai Wan Road, Chai Wan, Hong Kong</p>
-<p class="h">Scan with phone camera to add contact</p></div></body></html>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:#FF6400;color:#fff}
+body{font-family:Roboto,"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;min-height:100vh;
+display:flex;justify-content:center;padding:max(28px,env(safe-area-inset-top)) 28px max(28px,env(safe-area-inset-bottom))}
+.card{width:100%;max-width:420px;display:flex;flex-direction:column}
+h1{margin:0 0 10px;font-size:1.9rem;font-weight:700;letter-spacing:.02em}
+.post{margin:0;font-size:1.05rem;line-height:1.35}
+.org{margin:2px 0 0;font-size:.95rem;opacity:.95}
+ul{list-style:none;margin:26px 0 0;padding:0}
+li{display:flex;align-items:center;gap:12px;margin:0 0 10px;font-size:1.05rem}
+li svg{flex:none;width:18px;height:18px}
+a{color:#fff;text-decoration:none}
+.addr{margin:20px 0 0;font-size:.9rem;line-height:1.4}
+.web{margin:14px 0 0;font-size:.9rem}
+.qr{margin:26px auto 0;background:#fff;border-radius:14px;padding:12px;width:100%;max-width:300px}
+.qr img{display:block;width:100%;height:auto;image-rendering:pixelated}
+.hint{margin:10px 0 0;text-align:center;font-size:.8rem;opacity:.9}
+</style></head>
+<body><main class="card">
+<h1>Simon Chan</h1>
+<p class="post">Senior Manager (IT)</p>
+<p class="org">Employees Retraining Board</p>
+<ul>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><a href="tel:+85231291173">+852 3129 1173</a></li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><a href="mailto:simonchan@erb.org">simonchan@erb.org</a></li>
+</ul>
+<p class="addr">3/F to 6/F, 10 Siu Sai Wan Road, Chai Wan, Hong Kong</p>
+<p class="web"><a href="https://www.erb.org">www.erb.org</a></p>
+<div class="qr"><img src="qr.png?v=7f88a5cd" alt="QR code with contact details of Simon Chan"></div>
+<p class="hint">Scan with phone camera to add contact</p>
+</main></body></html>
