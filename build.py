@@ -37,13 +37,13 @@ PAGE = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="My eCard">
-<meta name="theme-color" content="#0b3d6e">
+<meta name="theme-color" content="#FF6400">
 <link rel="apple-touch-icon" href="../icon.png"><link rel="icon" href="../icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <title>{name} - eCard</title>
-<style>body{{margin:0;font-family:system-ui,sans-serif;background:#0b3d6e;color:#222;display:flex;min-height:100vh;align-items:center;justify-content:center}}
+<style>body{{margin:0;font-family:system-ui,sans-serif;background:#FF6400;color:#222;display:flex;min-height:100vh;align-items:center;justify-content:center}}
 .c{{background:#fff;border-radius:16px;padding:24px;max-width:380px;width:88%;text-align:center}}
-img{{width:100%;max-width:320px;image-rendering:pixelated}}h1{{margin:.2em 0;font-size:1.4em}}p{{margin:.3em 0}}.t{{color:#0b3d6e;font-weight:600}}
+img{{width:100%;max-width:320px;image-rendering:pixelated}}h1{{margin:.2em 0;font-size:1.4em}}p{{margin:.3em 0}}.t{{color:#222;font-weight:600}}
 .h{{font-size:.8em;color:#666;margin-top:12px}}</style></head>
 <body><div class="c"><img src="qr.png?v={ver}" alt="QR code with contact details of {name}">
 <h1>{name}</h1><p class="t">{post}</p><p>{org}</p>
@@ -52,7 +52,7 @@ img{{width:100%;max-width:320px;image-rendering:pixelated}}h1{{margin:.2em 0;fon
 """
 
 MANIFEST = {"name": "My eCard", "short_name": "eCard", "start_url": "./", "scope": "./",
-            "display": "standalone", "background_color": "#0b3d6e", "theme_color": "#0b3d6e",
+            "display": "standalone", "background_color": "#FF6400", "theme_color": "#FF6400",
             "icons": [{"src": "../icon.png", "sizes": "512x512", "type": "image/png"}]}
 
 def main():

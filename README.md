@@ -10,7 +10,7 @@ index.html            site root (placeholder)
 icon.png              home-screen icon
 staff.json            simulated daily HRIS export (full list of active staff)
 build.py              regenerates every staff folder from staff.json
-simon/ , mary/        index.html + qr.png + manifest.webmanifest
+simon/        index.html + qr.png + manifest.webmanifest
 ```
 
 ## Daily update
