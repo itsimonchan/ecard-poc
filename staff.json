@@ -1,0 +1,22 @@
+[
+  {
+    "id": "simon",
+    "first_name": "Simon",
+    "last_name": "Chan",
+    "post": "Senior Manager (IT)",
+    "org": "Employees Retraining Board",
+    "phone": "+852 3129 1173",
+    "email": "simonchan@erb.org",
+    "address": "3/F to 6/F, 10 Siu Sai Wan Road, Chai Wan, Hong Kong"
+  },
+  {
+    "id": "mary",
+    "first_name": "Mary",
+    "last_name": "Wong",
+    "post": "Manager (HR)",
+    "org": "My Company Ltd",
+    "phone": "+852 2000 0001",
+    "email": "mary@mycompany.com",
+    "address": "10/F, Example Tower, 1 Example Road, Hong Kong"
+  }
+]

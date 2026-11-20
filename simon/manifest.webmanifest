@@ -1,2 +1,1 @@
-{{"name":"My eCard","short_name":"eCard","start_url":"./","scope":"./","display":"standalone",
-"background_color":"#0b3d6e","theme_color":"#0b3d6e","icons":[{{"src":"../icon.png","sizes":"512x512","type":"image/png"}}]}}
+{"name": "My eCard", "short_name": "eCard", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#0b3d6e", "theme_color": "#0b3d6e", "icons": [{"src": "../icon.png", "sizes": "512x512", "type": "image/png"}]}
